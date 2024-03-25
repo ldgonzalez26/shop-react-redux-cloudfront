@@ -69,3 +69,13 @@ Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or
 ### `serverless:remove`
 
 Remove an entire stack configured in `serverless.yml` via CloudFormation.
+
+
+# Repository CloudX: AWS Practitioner for JS
+
+## TASK 2.3
+
+## Automated Deployment
+
+S3 URL --> (forbidden due to changes on policy) --> http://serverless-bucket-aws-practioner.s3-website.us-east-2.amazonaws.com/
+CloudFront URL --> (working as expected)--> https://d186dlxs6s67r.cloudfront.net/
