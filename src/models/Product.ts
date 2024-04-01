@@ -10,6 +10,6 @@ export const ProductSchema = Yup.object({
 export const AvailableProductSchema = ProductSchema.shape({
   count: Yup.number().integer().min(0).required().defined().default(0),
 });
-
+// avaliable product schema was already implemented on default FE project
 export type Product = Yup.InferType<typeof ProductSchema>;
 export type AvailableProduct = Yup.InferType<typeof AvailableProductSchema>;
